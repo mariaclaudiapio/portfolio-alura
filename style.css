@@ -5,13 +5,11 @@
 }
 
 .container {
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;    
+    margin: 10%;    
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;    
 }
 
 body {
@@ -19,16 +17,16 @@ body {
     color: #e0e0e0;
 }
 
-.titulo__destaque {
+strong {
     color: #ff69b4;
 }
 
-.titulo {
+h1 {
     font-family: 'Krona One', sans-serif;
     font-size: 3rem;
 }
 
-.texto {
+p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
