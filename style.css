@@ -4,21 +4,16 @@
     text-decoration: none;
 }
 
-.container {
-    box-sizing: border-box;    
-    margin: 10%;    
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;    
-}
-
 body {
     background-color: #181818;
     color: #e0e0e0;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
-strong {
-    color: #ff69b4;
+main {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -26,7 +21,20 @@ h1 {
     font-size: 3rem;
 }
 
-p {
+strong {
+    color: #ff69b4;
+}
+
+p,
+footer {
     font-family: 'Montserrat', sans-serif;
+}
+
+p {
     font-size: 1.2rem;
+    
+}
+
+footer {
+    font-size: 0.8rem;
 }
