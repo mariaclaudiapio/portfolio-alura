@@ -12,14 +12,19 @@ body {
 }
 
 main {
+    margin: 8%;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;    
+}
+
+.texto {
+    width: 615px;
 }
 
 h1 {
     font-family: 'Krona One', sans-serif;
-    font-size: 3rem;
+    font-size: 36px;
 }
 
 strong {
@@ -31,11 +36,6 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    font-size: 1.2rem;
-    
-}
-
 footer {
-    font-size: 0.8rem;
+    font-size: 12px;
 }
