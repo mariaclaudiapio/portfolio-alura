@@ -5,14 +5,14 @@
 }
 
 body {
+    margin: 8% 14%;
     background-color: #181818;
     color: #e0e0e0;
     height: 100vh;
     box-sizing: border-box;
 }
 
-main {
-    margin: 8%;
+main {    
     display: flex;
     align-items: center;
     justify-content: space-between;    
@@ -20,6 +20,9 @@ main {
 
 .texto {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 h1 {
@@ -36,6 +39,28 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: 24px;
+}
+
 footer {
     font-size: 12px;
 }
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    background-color: #ff69b4;
+    width: 280px;
+    padding: 21px 0;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 24px;
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+    
