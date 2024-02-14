@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    text-decoration: none;        
 }
 
 body {
@@ -12,48 +12,41 @@ body {
     box-sizing: border-box;
 }
 
-main {    
+.principal {    
     display: flex;
     align-items: center;
     justify-content: space-between;    
 }
 
-.texto {
+.principal__textos {
     width: 615px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-h1 {
+.principal__textos-titulo {
     font-family: 'Krona One', sans-serif;
     font-size: 36px;
 }
 
-strong {
+.destaque {
     color: #ff69b4;
 }
 
-p,
-footer {
+.principal__textos-texto,
+.rodape {
     font-family: 'Montserrat', sans-serif;
-}
-
-p {
     font-size: 24px;
 }
 
-footer {
-    font-size: 12px;
-}
-
-h2 {
+.principal__textos-subtitulo {
     font-family: "Krona One", sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
 
-.botoes {
+.principal__textos-botoes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -61,8 +54,7 @@ h2 {
     gap: 32px;
 }
 
-.botao {
-    /* background-color: #ff69b4; */
+.principal__textos-botao {
     width: 378px;
     padding: 21px 0;
     border: 2px solid #ff69b4;
