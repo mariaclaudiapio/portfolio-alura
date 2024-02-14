@@ -47,19 +47,29 @@ footer {
     font-size: 12px;
 }
 
+h2 {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .botoes {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .botao {
-    background-color: #ff69b4;
-    width: 280px;
+    /* background-color: #ff69b4; */
+    width: 378px;
     padding: 21px 0;
-    border-radius: 16px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
     text-align: center;
     font-size: 24px;
-    color: #181818;
+    color: #ff69b4;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
