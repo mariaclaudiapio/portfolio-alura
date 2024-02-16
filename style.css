@@ -31,7 +31,7 @@ body {
 }
 
 .destaque {
-    color: #ff69b4;
+    color: #22D4FD;
 }
 
 .principal__textos-texto,
@@ -54,15 +54,26 @@ body {
     gap: 32px;
 }
 
+.principal__textos-icone {    
+    width: 32px;
+}
+
 .principal__textos-botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     padding: 21px 0;
-    border: 2px solid #ff69b4;
+    border: 2px solid #22D4FD;
     border-radius: 8px;
     text-align: center;
+    color: #22D4FD;
     font-size: 24px;
-    color: #ff69b4;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+.principal__textos-botao:hover {
+    background-color: #272727;
 }
     
