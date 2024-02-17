@@ -5,11 +5,10 @@
 }
 
 body {
-    margin: 8% 14%;
+    paddingS: 8% 14%;
     background-color: #181818;
-    color: #e0e0e0;
-    height: 100vh;
-    box-sizing: border-box;
+    color: #e0e0e0;    
+    box-sizing: border-box;    
 }
 
 .principal {    
@@ -67,7 +66,7 @@ body {
     border: 2px solid #22D4FD;
     border-radius: 8px;
     text-align: center;
-    color: #22D4FD;
+    color: #e0e0e0;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -75,5 +74,12 @@ body {
 
 .principal__textos-botao:hover {
     background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: #181818;
+    background-color: #22D4FD;
+    text-align: center;
 }
     
