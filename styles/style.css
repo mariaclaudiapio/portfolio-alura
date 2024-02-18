@@ -4,8 +4,23 @@
     text-decoration: none;        
 }
 
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__navegacao > a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #22D4FD;
+}
+
 body {
-    paddingS: 8% 14%;
+    padding: 8% 14%;
     background-color: #181818;
     color: #e0e0e0;    
     box-sizing: border-box;    
