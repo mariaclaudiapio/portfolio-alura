@@ -1,3 +1,13 @@
+:root {
+    --background-color: #000000;
+    --font-color: #e0e0e0;
+    --emphasis-color: #22d4fd;
+    --hover-color: #272727;
+
+    --primary-font: 'Krona One', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +30,7 @@
 }
 
 body {
-    padding: 8% 14%;
+    
     background-color: #181818;
     color: #e0e0e0;    
     box-sizing: border-box;    
