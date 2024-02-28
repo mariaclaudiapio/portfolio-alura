@@ -3,9 +3,9 @@
     --font-color: #e0e0e0;
     --emphasis-color: #22d4fd;
     --hover-color: #272727;
-
-    --primary-font: 'Krona One', sans-serif;
-    --secondary-font: 'Montserrat', sans-serif;
+    
+    --secondary-font: 'Krona One', sans-serif;
+    --primary-font: 'Montserrat', sans-serif;
 }
 
 * {
@@ -14,9 +14,24 @@
     text-decoration: none;        
 }
 
-.cabecalho {
-    padding: 2% 0 0 15%;
+.home-body {
+    max-width: 80vh;
+    margin: 0 auto;
+    font-family: var(--primary-font);
 }
+
+/* header */
+.header__navigation {
+    padding: 3rem 0;
+}
+
+.header__navigation-item {
+    padding-right: 6rem;
+    color: var(--emphasis-color);    
+    font-size: 24px;
+    font-weight: 600;
+}
+
 
 .cabecalho__navegacao {
     display: flex;
